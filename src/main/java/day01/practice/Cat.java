@@ -37,7 +37,8 @@ public class Cat {
         // Create two Dog objects
         Cat cat1 = new Cat(1, "White","Meow");
         Cat cat2 = new Cat(2, "Black","Meow");
-//        Cat cat3 =new Cat(true,"Wolf","Meow");
+        cat2.setSpeak("meeeeeeeeeeeeeeeeeeeeeeee");
+//        Cat cat3 =new Cat(true,"Wolf","Meow");"Meow"
         // Print the attributes of each Dog
         System.out.println("cat 1:");
         System.out.println("Has Dots: " + cat1.hasDots());

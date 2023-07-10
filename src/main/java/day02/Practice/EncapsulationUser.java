@@ -6,7 +6,7 @@ public class EncapsulationUser {
     private String password;
     private String emailId;
     
-    // Setters
+    // Set the names in get id
     public void setId(int id) {
         this.id = id;
     }
@@ -23,7 +23,7 @@ public class EncapsulationUser {
         this.emailId = emailId;
     }
     
-    // Getters
+    // Geting from user 
     public int getId() {
         return id;
     }
