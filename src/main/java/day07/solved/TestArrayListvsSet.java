@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.HashSet;
 
 public class TestArrayListvsSet {
-	 
-    public static void main(String[] args) {
- 
-        //ArrayList stores duplicates
+	
+	public static void main(String[] args) {
+		
+		 //ArrayList stores duplicates
         ArrayList<String> cityNames = new ArrayList<String>();
         cityNames.add("Delhi");
         cityNames.add("Chennai");
@@ -24,8 +24,7 @@ public class TestArrayListvsSet {
         cityNamesSet.add("Bangalore");
  
         System.out.println("Using Set :" + cityNamesSet);
-         
- 
-    }
- 
+		
+	}
+
 }
