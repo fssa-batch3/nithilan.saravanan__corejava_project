@@ -32,7 +32,7 @@ public class TestAddObjToArrayList {
 	}
 	
 	@Test
-	public void testInvaildPriority() throws IllegalArgumentException {
+	public void testInvaildPriority() throws IllegalArgumentException{
 		
 		Task task = new Task("Read Book", 6);
 		

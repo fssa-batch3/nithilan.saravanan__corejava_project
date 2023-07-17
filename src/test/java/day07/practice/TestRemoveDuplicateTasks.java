@@ -12,7 +12,7 @@ public class TestRemoveDuplicateTasks {
 	public void testValidRemoveDuplicate() {
 		
 		ArrayList<Task> taskList = new ArrayList<>();
-//		Assertions.assertTrue(RemoveDuplicateTaskUsingHashSet.addTaskToArray(taskList));
+		Assertions.assertTrue(RemoveDuplicateTaskUsingHashSet.addTaskToArray(taskList));
 		
 		
 	}
@@ -22,7 +22,7 @@ public class TestRemoveDuplicateTasks {
 	public void testInvalidAddTastToArray() {
 		
 		try {
-			RemoveDuplicateTaskUsingHashSet.RemoveDuplicates(null);
+			RemoveDuplicateTaskUsingHashSet.addTaskToArray(null);
 			Assertions.fail("Add Task To Array Method is Failded");
 		}catch(IllegalArgumentException ex) {
 			Assertions.assertEquals("ArrayList Is Cann't Be Null", ex.getMessage());
@@ -43,7 +43,7 @@ public class TestRemoveDuplicateTasks {
 		taskList.add(new Task(2, "Read Notes", date1));
 		taskList.add(t1);
 		taskList.add(new Task(3, "Learn Java", date1));
-//		Assertions.assertTrue(RemoveDuplicateTaskUsingHashSet.RemoveDuplicates(taskList));
+		Assertions.assertTrue(RemoveDuplicateTaskUsingHashSet.removeduplicates(taskList));
 		
 	}
 	
@@ -51,7 +51,7 @@ public class TestRemoveDuplicateTasks {
 	public void testInvalidRemoveDuplicateToArrayList() {
 		
 		try {
-			RemoveDuplicateTaskUsingHashSet.RemoveDuplicates(null);
+			RemoveDuplicateTaskUsingHashSet.removeduplicates(null);
 			Assertions.fail("Remove Duplicates Task To Array Method is Failded");
 		}catch(IllegalArgumentException ex) {
 			Assertions.assertEquals("HashSet is connot be null", ex.getMessage());
