@@ -21,4 +21,6 @@ public class ThrowRunTimeExceptionDemo {
 		// Not surrounding with try catch as Illegal is a runtime exception
 		NewTaskValidator.validate(task);
 	}
+	
+	
 }
