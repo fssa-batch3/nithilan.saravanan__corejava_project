@@ -13,7 +13,7 @@ class Task {
 
 
 
-public class m implements Comparator<Task> {
+public class task implements Comparator<Task> {
     @Override
     public int compare(Task task1, Task task2) {
         // Compare deadlines first
