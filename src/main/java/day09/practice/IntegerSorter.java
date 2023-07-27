@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Scanner;
 
 public class IntegerSorter {
-    public static void main(String[] args) {
+    public static void main(String[] args ) {
         Scanner scanner = new Scanner(System.in);
         ArrayList<Integer> numbers = new ArrayList<>();
 
@@ -18,7 +18,7 @@ public class IntegerSorter {
             // Convert the number string to an integer
             int number = Integer.parseInt(numberString);
             // Add the integer to the ArrayList
-            numbers.add(number);
+            numbers.add(number);    
         }
 
         // Sort the ArrayList in ascending order

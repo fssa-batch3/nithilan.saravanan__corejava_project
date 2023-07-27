@@ -53,7 +53,7 @@ class Task implements Comparable<Task> {
 		this.name = name;
 		this.deadline = deadline;
 	}
-
+ 
 	@Override
 	public int compareTo(Task o) {
 		if (this.deadline.isEqual(o.getDeadline())) {
